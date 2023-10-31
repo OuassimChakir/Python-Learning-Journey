@@ -4,7 +4,7 @@ print(L)
 posi = 0
 negi = -1
 stopPoint = int(len(L) / 2)
-while posi < 2:
+while posi < stopPoint:
     x = L[posi]
     L[posi] = L[negi]
     L[negi] = x

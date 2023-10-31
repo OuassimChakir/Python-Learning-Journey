@@ -5,4 +5,4 @@ def somme(n,m):
         print(x)
     return somme
 
-print("somme=",somme(5,8))
+print("somme =",somme(5,8))
